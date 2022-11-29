@@ -11,15 +11,16 @@
 body {
   background-color: #d6e2f0;
   font-family: "Outfit", sans-serif;
-  height: 95vh;
+}
+main {
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
 }
-
 .qr__card {
-  margin-inline: auto;
   height: 497px;
   width: 320px;
   background-color: #fff;
