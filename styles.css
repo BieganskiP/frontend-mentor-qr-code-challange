@@ -13,8 +13,9 @@ body {
   font-family: "Outfit", sans-serif;
   height: 95vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
+  gap: 10px;
 }
 
 .qr__card {
